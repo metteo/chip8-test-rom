@@ -8,7 +8,7 @@ otherwise the program prints ERROR followed by the error code.
 
 ## Error codes:
 
-- **ERROR INI** - Emulator initialization failed. When program starts, all registers (V0-VF & I) must be set to 0.
+- **ERROR INI** - Emulator initialization failed. When program starts, all registers (V0-VF) must be set to 0.
 - **ERROR BCD** - BCD instruction problems.
 - **ERROR 0** - Problems with Fx65 instruction. Can't load zeroes from memory to registers.
 - **ERROR 1** - System font 8x5 not found. In memory at offset 000h - zeroes.
@@ -38,9 +38,8 @@ otherwise the program prints ERROR followed by the error code.
                  otherwise 0. As a result, register VF not set to 1.
                  This undocumented feature of the Chip-8 and used by Spacefight 2019! game.
 
+## Note
 
+SCTEST.SRC is the original assembly of SCTEST.CH8 written in CHIPPER (see [this](http://www.pong-story.com/chip8/chp8_220.zip) zip file) dialect.
 
-
-
-
-
+There is an ongoing effort to port the original into [Octo](https://johnearnest.github.io/Octo/) syntax for easy assembly.
