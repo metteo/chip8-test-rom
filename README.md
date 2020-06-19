@@ -1,5 +1,7 @@
 # chip8-test-rom
-Chip8 / SChip Test ROM 
+Chip8 / SChip Test ROM
+
+![Screenshot of all tests passed](https://repository-images.githubusercontent.com/273511354/3ee2ae80-b25c-11ea-93ca-ec86d3fa694a)
 
 Originally written and [published](https://www.cyberforum.ru/post919567.html) by Sergey Naydenov ([Tronix](mailto:tronix286@rambler.ru))
 
